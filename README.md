@@ -10,7 +10,7 @@ This repo is a demo of how to combine DotVVM with existing Nancy FX application.
 
 2. Install the `Microsoft.Owin.Host.SystemWeb` package if you already don't have it in your project.
 
-3. Add the [OWIN Startup class](src/WebFormsDotVVMCombo/Startup.cs) if it is not present.
+3. Add the [OWIN Startup class](src/DotvvmNancyIntegration/Startup.cs) if it is not present.
 
 4. Call `app.UseDotVVM...` to register DotVVM middleware in OWIN pipeline. DotVVM must be registered before Nancy. Othwerwise you would get 404 error page for DotVVM routes.
 
